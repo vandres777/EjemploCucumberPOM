@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="8.37">
+<testcase classname="Test Google search functionality" name="As a user I enter a search criteria  in Google" time="7.981">
+<failure message="" type="java.lang.NullPointerException"><![CDATA[Given I am on the Google search page........................................passed
+When I enter a search criteria..............................................passed
+And Click on the search button..............................................passed
+Then The results match the criteria.........................................failed
+
+StackTrace:
+java.lang.NullPointerException
+	at steps.GoogleSteps.validateResults(GoogleSteps.java:40)
+	at ✽.The results match the criteria(file:///C:/Users/VANDR/eclipse-workspace/TheFreeRangeTester/features/Google.feature:7)
+]]></failure>
+</testcase>
+</testsuite>
